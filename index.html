@@ -5,19 +5,352 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Imtiaz Landing Page</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
   </head>
   <body>
-    <header class="main-header">
-      <h1>Welcome to imtiaz Landing Page</h1>
+    <header id="main-header">
+      <nav class="navbar container">
+        <div class="logo">LOGO</div>
+        <div class="nav-button-container">
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="dropdown">
+              <a href="#">Features <i class="fas fa-chevron-down"></i></a>
+            </li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+          <div class="nav-actions">
+            <a href="#" class="btn login-btn">Login</a>
+            <a href="#" class="btn primary-btn">
+              Get in touch <span class="arrow">&#8594;</span>
+            </a>
+          </div>
+        </div>
+      </nav>
     </header>
 
-    <section class="content">
-      <h2>About the Project</h2>
-      <p>This is a simple HTML & CSS landing page setup.</p>
-    </section>
+    <main>
+      <section id="hero-section" class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Lorem ipsum dolor sit amet <br />
+            consectetur adipiscing elit
+          </h1>
+          <p class="hero-subtitle">
+            Praesent et nisl nisl. Cras ut finibus eros. Morbi scelerisque
+            tellus nec tortor viverra, <br />
+            in tempus tellus tincidunt. Proin rhoncus quam a pulvinar tempor.
+            <br />
+            Sed at blandit turpis, ut interdum ligula.
+          </p>
+          <div class="hero-buttons">
+            <a href="#" class="btn primary-btn">Primary Action</a>
+            <a href="#" class="btn outline-btn">Secondary Action</a>
+          </div>
+        </div>
+      </section>
+      <section id="feature-section" class="feature">
+        <div class="container feature-content">
+          <div class="feature-text">
+            <h2 class="feature-title">
+              Vestibulum ultricie <br />
+              hend rerit prei tium
+            </h2>
+            <p class="feature-description">
+              Lorem ipsum dolor sit amet consectetur adipiscing elidolor mattis
+              sit phasellus mollis sit aliquam sit nullam neques.
+            </p>
+            <div class="feature-buttons">
+              <a href="#" class="btn primary-btn"
+                >Get started <span class="arrow">&#8594;</span></a
+              >
+              <a href="#" class="btn light-btn">Learn more</a>
+            </div>
+          </div>
+          <div class="feature-image">
+            <div class="image-placeholder">
+              <i class="fas fa-image"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="stats-section" class="stats-section">
+        <div class="container">
+          <div class="stats-header">
+            <h2>Dolor mollis arcu vehicu</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit
+              phasellus mollis sit aliquam sit nullam.
+            </p>
+          </div>
+          <div class="stats-cards-wrapper">
+            <div class="stats-cards">
+              <div class="stat-card">
+                <h3>200+</h3>
+                <p class="stat-title">Vestibulum hendrerit</p>
+                <p class="stat-desc">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam
+                  mauris sed ma
+                </p>
+                <a href="#" class="learn-more"
+                  >Learn more <span>&#8594;</span></a
+                >
+              </div>
+              <div class="stat-card">
+                <h3>97%</h3>
+                <p class="stat-title">Mauris facilisis elementum</p>
+                <p class="stat-desc">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam
+                  mauris sed ma
+                </p>
+                <a href="#" class="learn-more"
+                  >Learn more <span>&#8594;</span></a
+                >
+              </div>
+              <div class="stat-card">
+                <h3>34+</h3>
+                <p class="stat-title">Nullam ut nisi nisi</p>
+                <p class="stat-desc">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam
+                  mauris sed ma
+                </p>
+                <a href="#" class="learn-more"
+                  >Learn more <span>&#8594;</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <div class="gallery-header">
+          <h2>Cras laoreet orci nulla</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit
+            phasellus mollis sit aliquam sit
+          </p>
+        </div>
+        <div class="gallery-grid">
+          <!-- First Column -->
+          <div class="gallery-column">
+            <div class="gallery-item"><div class="placeholder"></div></div>
+            <div class="gallery-item"><div class="placeholder"></div></div>
+          </div>
+          <!-- Second Column -->
+          <div class="gallery-column">
+            <div class="gallery-item"><div class="placeholder"></div></div>
+            <div class="gallery-item"><div class="placeholder"></div></div>
+          </div>
+          <!-- Third Column -->
+          <div class="gallery-column">
+            <div class="gallery-item"><div class="placeholder"></div></div>
+            <div class="gallery-item"><div class="placeholder"></div></div>
+          </div>
+        </div>
+      </section>
 
-    <footer class="main-footer">
-      <p>&copy; 2025 My Website. All rights reserved to imtiaz.</p>
+      <section class="testimonials">
+        <h2>Pellent esque er nibh</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipiscing elit mattis sit
+          phasellus mollis sit aliquam sit nullam.
+        </p>
+        <div class="testimonial-cards">
+          <div class="testimonial-card">
+            <p>
+              “Lorem ipsum dolor sit amet dolor sit consectetur elit gravida
+              suspendisse sapien fusce egestas vitae purus suspendisse turpis
+              volutpat cras.”
+            </p>
+            <strong>Morbi Sed</strong>
+            <span>CEO & Founder</span>
+          </div>
+          <div class="testimonial-card">
+            <p>
+              “Lorem ipsum dolor sit amet dolor sit consectetur elit gravida
+              suspendisse sapien fusce egestas vitae purus suspendisse turpis
+              volutpat cras.”
+            </p>
+            <strong>Aliquam Congue</strong>
+            <span>VP of Finance</span>
+          </div>
+          <div class="testimonial-card">
+            <p>
+              “Lorem ipsum dolor sit amet dolor sit consectetur elit gravida
+              suspendisse sapien fusce egestas vitae purus suspendisse turpis
+              volutpat cras.”
+            </p>
+            <strong>Fusce Varius Dui</strong>
+            <span>VP of Product</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <h2>Praesent et nisi nisl</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipiscing elit mattis sit
+          phasellus mollis sit aliquam sit nullam.
+        </p>
+        <div class="services-grid">
+          <!-- First Card -->
+          <div class="service-card">
+            <div class="card-top">
+              <div class="image-icon">
+                <img src="assets/web-desing.jpg" alt="UX/UI design icon" />
+              </div>
+            </div>
+            <div class="card-bottom">
+              <h3>Web design</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectoli tur adipiscing elit semper
+                dalar.
+              </p>
+              <a href="#">Learn more <span>&rarr;</span></a>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="card-top">
+              <div class="image-icon">
+                <img src="assets/web-dev.jpg" alt="Web Development" />
+              </div>
+            </div>
+            <div class="card-bottom">
+              <h3>Web development</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur tur adipiscing elit
+                semper dalar.
+              </p>
+              <a href="#">Learn more <span>&rarr;</span></a>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="card-top">
+              <div class="image-icon">
+                <img src="assets/ui.jpg" alt="UX/UI Design" />
+              </div>
+            </div>
+            <div class="card-bottom">
+              <h3>UX/UI design</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur tur adipiscing elit
+                semper dalar.
+              </p>
+              <a href="#">Learn more <span>&rarr;</span></a>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="card-top">
+              <div class="image-icon">
+                <img src="assets/web-desing.jpg" alt="Product Design" />
+              </div>
+            </div>
+            <div class="card-bottom">
+              <h3>Product design</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur tur adipiscing elit
+                semper dalar.
+              </p>
+              <a href="#">Learn more <span>&rarr;</span></a>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="card-top">
+              <div class="image-icon">
+                <img src="assets/web-desing.jpg" alt="Graphic Design" />
+              </div>
+            </div>
+            <div class="card-bottom">
+              <h3>Graphic design</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur tur adipiscing elit
+                semper dalar.
+              </p>
+              <a href="#">Learn more <span>&rarr;</span></a>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="card-top">
+              <div class="image-icon">
+                <img src="assets/web-desing.jpg" alt="Branding Design" />
+              </div>
+            </div>
+            <div class="card-bottom">
+              <h3>Branding design</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur tur adipiscing elit
+                semper dalar.
+              </p>
+              <a href="#">Learn more <span>&rarr;</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-columns">
+        <div class="column">
+          <h4>Column One</h4>
+          <ul>
+            <li>Twenty One</li>
+            <li>Thirty Two</li>
+            <li>Forty Three</li>
+            <li>Fifty Four</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h4>Column Two</h4>
+          <ul>
+            <li>Sixty Five</li>
+            <li>Seventy Six</li>
+            <li>Eighty Seven</li>
+            <li>Ninety Eight</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h4>Column Three</h4>
+          <ul>
+            <li>One Two</li>
+            <li>Three Four</li>
+            <li>Five Six</li>
+            <li>Seven Eight</li>
+          </ul>
+        </div>
+        <div class="column social">
+          <h4>Join Us</h4>
+          <div class="social-icons">
+            <a href="#"><i class="icon-youtube">YouTube</i></a>
+            <a href="#"><i class="icon-facebook">Facebook</i></a>
+            <a href="#"><i class="icon-twitter">Twitter</i></a>
+            <a href="#"><i class="icon-linkedin">LinkedIn</i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Imtiaz © 2025. All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>
